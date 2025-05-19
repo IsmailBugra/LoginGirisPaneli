@@ -12,7 +12,7 @@ let role = prompt("Rolünüzü girin:");
     alert(`Hoşgeldinnn ${role} - ${ad} ${soyad}`);
   }
 
-if (ismi == Kullanıcıİsmi || şifresi !== KullanıcıŞifresi) {
+if (ismi == Kullanıcıİsmi || şifresi == KullanıcıŞifresi) {
 let tekrar = prompt("Kullanıcı adı veya şifre hatalı. Tekrar denemek ister misin? (E/H)");
 if (tekrar.toUpperCase() === "E") 
 {giris(); }
